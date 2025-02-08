@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой учебный сайт</title>
+</head>
+
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О сайте</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>О сайте</h2>
+            <p>Этот сайт создан для демонстрации базового HTML-кода с семантическими тегами.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <ul>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png " alt="html"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/274px-HTML.svg.png" alt="код"></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Вы можете написать мне на <a href="bulatova@email.com">bulatova@email.com</a>.</p>
+            <p>Больше информации можно найти на <a href="https://www.w3.org/" target="_blank">сайте W3C</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Все права защищены</p>
+    </footer>
+</body>
+
+</html>
